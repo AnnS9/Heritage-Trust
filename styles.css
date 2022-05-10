@@ -323,7 +323,7 @@ h5{
 /* Paragraphs */
 .about{
     font-family: 'poppins', sans-serif;
-    font-size: 26px;
+    font-size: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 20px;
@@ -537,9 +537,7 @@ h5{
   
   
 }
-.accordion-item{
-  
-}
+
  .newsletter-btn{
   border: 3px solid rgb(253, 251, 251);
   background-color: #f1f1f1;
@@ -621,7 +619,7 @@ margin-bottom: 20px;
 }
 .links-accordion{
   font-family: 'poppins';
-  font-size: 22px;
+  font-size: 16px;
   text-align: left;
 }
 .accordion{
