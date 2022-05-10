@@ -374,7 +374,8 @@ h5{
     
   }
   .accordion-item{
-    margin-right: 10%;
+    margin-right: 15%;
+    
   }
   
 }
@@ -527,6 +528,8 @@ h5{
 
 .events-content{
   margin-bottom: 40px;
+  width: 600px;
+  
 }
 .accordion-item .accordion-button{
   background: #558AA7 !important;
