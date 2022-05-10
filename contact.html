@@ -128,29 +128,45 @@
 <section id="contact">
 <h4>Contact Form</h4>
 
-<div class="container   d-flex flex-column mt-5">
-   
-            <form  method="post" name="contact" data-netlify="true" class="row cform justify-content-center">
-                <div class="form-group col-lg-3 ">
-                    <label class="form-control-label label-cont" >Name</label>
-                    <input type="text" class="form-control" id="form-group-input"  name="name">
-                
-                
-                    <label class="form-control-label label-cont" >Email</label>
-                    <input type="text" class="form-control" id="form-group-inputl"  name="email" required>
-                </div>
-                <div class="row justify-content-center">
-                <div class="form-group col-lg-6">
-                    <label class="form-control-label label-cont" >Your Message</label>
-                    <textarea class="form-control" id="form-group-inputj"  name="notes" rows="6" required></textarea>
-                </div>
-                <div class="form-group col-lg-12 ">
-                  <div class="form-group mb-5"><button class="btn rounded-pill btn-lg btn-warning btn-outline-light mt-3" type="submit" value="Send">  Send message  </button></div>
-                </div>
-              </div>
-            </form>
-        </div>
+<div class="fcf-body">
+
+  <div id="fcf-form">
+  
+
+  <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact.php">
+      
+      <div class="fcf-form-group">
+          <label for="Name" class="fcf-label">Your name</label>
+          <div class="fcf-input-group">
+              <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+          </div>
       </div>
+
+      <div class="fcf-form-group">
+          <label for="Email" class="fcf-label">Your email address</label>
+          <div class="fcf-input-group">
+              <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+          </div>
+      </div>
+
+      <div class="fcf-form-group">
+          <label for="Message" class="fcf-label">Your message</label>
+          <div class="fcf-input-group">
+              <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+          </div>
+      </div>
+
+      <div class="fcf-form-group">
+          <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+      </div>
+
+      
+
+  </form>
+  </div>
+
+</div>
+
     </section>
   
 
