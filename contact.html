@@ -133,7 +133,7 @@
   <div id="fcf-form">
   
 
-  <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact.php">
+  <form id="fcf-form-id" class="fcf-form-class" method="post" name="contact" data-netlify="true">
       
       <div class="fcf-form-group">
           <label for="Name" class="fcf-label">Your name</label>
@@ -157,7 +157,7 @@
       </div>
 
       <div class="fcf-form-group">
-          <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+          <button type="submit" id="fcf-button" value="Send" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
       </div>
 
       
@@ -217,14 +217,14 @@
             <form method = "post" action="contact.php">
              
               <div class="container newsletter" >
-                <input type="text" placeholder="Email address" name="mail" required>
+                <input  class="form-control" type="email" name="email" placeholder="Your Email" required>
                 
               </div>
             
               <div class="container">
-                <input type="submit" value="Subscribe">
+                <input type="submit" value="Send">
               </div>
-            </form>
+            </form> 
             
                 
             
