@@ -374,6 +374,7 @@ h5{
     width: 400px;
     align-items: center;
     
+    
   }
   .accordion-item{
     margin-right: 15%;
@@ -527,7 +528,11 @@ h5{
 .accordion-header{
   background: #558AA7 !important;
 }
+.accordion-body:focus{
 
+  outline: none !important;
+  
+  }
 .events-content{
   margin-bottom: 40px;
   width: 600px;
@@ -535,6 +540,7 @@ h5{
 }
 .accordion-item .accordion-button{
   background: #558AA7 !important;
+  outline: none !important;
   
 }
 .accordion-body{
@@ -630,8 +636,14 @@ margin-bottom: 20px;
 .accordion{
   margin-bottom: 100px;
   margin-top: 150px;
+  
 }
 
+.accordion-button:focus{
+
+  outline: none !important;
+  box-shadow: none !important;
+  }
 /*Contact*/
 #fcf-form {
   display:block;

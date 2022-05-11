@@ -77,10 +77,10 @@ if (isset($_POST['Email'])) {
 <?php
 
 
-if($_POST["message"]) {
+if($_POST["mail"]) {
 
 
-mail("your@email.address", "Here is the subject line",
+mail("info@annadesign.co.uk", "Here is the subject line",
 
 
 $_POST["insert your message here"]. "From: an@email.address");
