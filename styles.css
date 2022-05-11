@@ -380,7 +380,12 @@ h5{
     margin-right: 15%;
     
   }
-  
+  p.address1{
+    font-size: 32px;
+  }
+  p.address2{
+    font-size: 22px;
+  }
 }
 
 .aims-2{
@@ -756,6 +761,9 @@ label.fcf-label {
 @media (prefers-reduced-motion: reduce) {
   .fcf-btn {
       transition: none;
+  }
+  .fcf-body {
+    max-width: 100%;
   }
 }
 
