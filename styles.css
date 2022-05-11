@@ -320,7 +320,19 @@ h5{
 .d-flex{
   display: flex !important;
 }
-
+.carousel{
+  width: 800px;
+  max-width: 800px;
+  max-height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+}
+.w-100 {
+  width: 100% !important;
+  height: 75vh;
+}
 
 /* Paragraphs */
 .about{
