@@ -121,6 +121,16 @@ li{
  .navbar-toggler{  /*zrob do prawej */
     float: right;
 }
+#logo{
+  width: auto !important;
+  height: 100px !important;
+  margin-left: 20px;
+}
+#logo2{
+  width: auto !important;
+  height: 100px !important;
+  margin-left: 20px;
+}
 /* HERO */
 .hero-index{
     
