@@ -209,6 +209,12 @@ li{
     border-radius: 0px;
     
 }
+@media screen and (max-width: 800px) {
+  .hero-index, .hero-contact, .hero-events, .hero-heritage{
+      height: 500px;
+      width: auto;
+  }
+}
 .hero-index .btn:hover{
     background-color: #414C4F;
 }
@@ -487,7 +493,7 @@ h5{
     font-size: 16px;
   }
   .heading-links{
-    font-size: 30px;
+    font-size: 46px;
   }
   p.links-accordion{
     font-size: 12px;
