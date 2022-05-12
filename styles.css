@@ -140,8 +140,10 @@ li{
     justify-content:right;
     align-items: right;
     background-image: url("img/beach2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
    
 }
 .hero-heritage {
@@ -152,8 +154,10 @@ li{
   justify-content:right;
   align-items: right;
   background-image: url("img/hero1.jpg");
+  background-position: center;
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
+  position: relative;
  
 }
 .hero-contact{
@@ -163,8 +167,10 @@ li{
   justify-content:right;
   align-items: right;
   background-image: url("img/hero1.jpg");
+  background-position: center;
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
+  position: relative;
 }
 .hero-events {
     
@@ -174,8 +180,10 @@ li{
   justify-content:right;
   align-items: right;
   background-image: url("img/street.png");
+  background-position: center;
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
+  position: relative;
   
  
 }
@@ -466,6 +474,7 @@ h5{
   .about{
     font-size: smaller;
   }
+
   .heading-orange{
     font-size: 42px;
   }
@@ -576,23 +585,27 @@ h5{
 .heritage-grid.industry{
   background-image: url("img/industry.jpg");
   background-repeat: no-repeat;
+  background-position: center;
   height: 300px;
   width: 400px;
 }
 .heritage-grid.architecture{
   background-image: url("img/architecture.jpg");
   background-repeat: no-repeat;
+  
   height: 300px;
   width: 400px;
 }
 .heritage-grid.sea{
   background-image: url("img/sea.jpg");
   background-repeat: no-repeat;
+  background-position: center;
   height: 300px;
   width: 400px;
 }
 .heritage-grid.people{
   background-image: url("img/people.jpg");
+  background-position: center;
   background-repeat: no-repeat;
   height: 300px;
   width: 400px;
@@ -600,11 +613,13 @@ h5{
 .heritage-grid.plaques{
   background-image: url("img/plaque.png");
   background-repeat: no-repeat;
+  background-position: center;
   height: 300px;
   width: 400px;
 }
 .heritage-grid.culture{
   background-image: url("img/entertainment.jpg");
+  background-position: center;
 }
 .heritage-grid .btn{
   
