@@ -95,7 +95,7 @@
 </div>
 </div>
 <div class="col-lg-6 col-sm-12 ">
-<p class="aims">“To record, promote and encourage the conservation, protection and enhancement of the historical, architectural and landscape heritage within Portobello and its environs. To advance knowledge and understanding of all aspects of Portobello’s cultural and industrial heritage within the community and beyond.”</p>
+<p class="aims reveal fade-bottom">“To record, promote and encourage the conservation, protection and enhancement of the historical, architectural and landscape heritage within Portobello and its environs. To advance knowledge and understanding of all aspects of Portobello’s cultural and industrial heritage within the community and beyond.”</p>
 <p class="aims-2">These are wide ranging aims including, as they do, all of Portobello's cultural, historical, architectural and landscape heritage.</p>
 </div>
 </div>
@@ -191,6 +191,23 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+function reveal() {
+  var reveals = document.querySelectorAll(".reveal");
+
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 150;
+
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active");
+    } else {
+      reveals[i].classList.remove("active");
+    }
+  }
+}
+
+window.addEventListener("scroll", reveal);
 </script>
 
       
