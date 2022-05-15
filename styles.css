@@ -396,18 +396,12 @@ h5{
   display: flex !important;
 }
 .carousel{
-  width: 800px;
-  max-width: 800px;
-  
-  margin-left: auto;
-  margin-right: auto;
   
   
   
-}
-.w-100 {
-  width: 100% !important;
-  height: 480px;
+  
+  
+  
 }
 
 .textOverImage{
@@ -473,6 +467,10 @@ h5{
     padding-top: 20%;
     padding-right: 10%;
 }
+.carousel{
+  margin-left: auto;
+  margin-right: auto;
+}
 
 @media screen and (max-width: 540px) {
   .aims{
@@ -521,6 +519,13 @@ h5{
   p.address2{
     font-size: 22px;
   }
+  .heading-dig{
+    font-size: 42px;
+  }
+  .heading-pastevent{
+    font-size: 52px;
+  }
+  
   
 }
 
@@ -818,7 +823,9 @@ margin-bottom: 20px;
   
   
 }
-
+.footer{
+  box-shadow: none !important;
+}
 .fcf-body {
   
   font-family: poppins;
