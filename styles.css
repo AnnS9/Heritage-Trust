@@ -395,14 +395,11 @@ h5{
 .d-flex{
   display: flex !important;
 }
-.carousel{
-  
-  
-  
-  
-  
-  
+.carousel-inner > .item > img {
+  width:640px;
+  height:360px;
 }
+ 
 
 .textOverImage{
   
