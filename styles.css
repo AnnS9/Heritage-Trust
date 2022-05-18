@@ -321,7 +321,7 @@ p.address2{
 }
 #slide{
   position: absolute;
-    left: -100px;
+    
     width: 700px;
     height: 100px;
     
@@ -396,8 +396,8 @@ h5{
   display: flex !important;
 }
 .carousel-inner > .item > img {
-  width:640px;
-  height:360px;
+  width:540px;
+  height:260px;
 }
  
 
@@ -476,7 +476,7 @@ h5{
     padding-left: 10%;
   }
   .about{
-    font-size: smaller;
+    font-size: 16px;
   }
 
   .heading-orange{
@@ -522,7 +522,9 @@ h5{
   .heading-pastevent{
     font-size: 52px;
   }
-  
+ p.aims-2{
+    font-size: 10px;
+  }
   
 }
 
