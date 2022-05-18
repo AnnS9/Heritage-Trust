@@ -495,9 +495,13 @@ h5{
   }
   .heading-links{
     font-size: 46px;
+    position: relative;
+  padding-right: 10% !important;
+  padding-left: 0px !important;
+  text-align: center;
   }
   p.links-accordion{
-    font-size: 12px;
+    font-size: 16px;
   }
   .links-button{
     font-size: 26px;
@@ -531,8 +535,28 @@ h5{
   h5.text-capitalize{
     margin-top: 20px;
   }
-  
+  .fcf-body{
+    font-family: poppins;
+  font-size: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  padding: 0px !important;
+  padding-bottom: 10px;
+  max-width: 70% !important;
+  margin-bottom: 55px;
 }
+
+  .accordion-item .accordion-button:focus{
+    background: #558AA7 !important;
+    outline: none !important;
+    
+    
+  }
+}
+
 
 .aims-2{
     font-family: 'poppins', sans-serif;
