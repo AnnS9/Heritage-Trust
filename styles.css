@@ -552,6 +552,7 @@ h5{
   .accordion-item .accordion-button:focus{
     background: #558AA7 !important;
     outline: none !important;
+   color: #414C4F !important;
     
     
   }
